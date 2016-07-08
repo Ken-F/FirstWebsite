@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My App</title>
+		<link rel="shortcut icon" href="images/favicon.png">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="css/myapp.css">
+        
+	</head>
+	
+	<body>
+
+		<!-- Static navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+		<div class="navbar-header">
+			<!--  This to allow a button to show up in the corner when the screen is too small -->		
+
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			  </button>
+					
+			  <a class="navbar-brand" href="Index.html"><img src="images/smile3.jpg" width=30></a>
+			</div>
+			
+			<div id="navbar" class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav">
+				<li><a href="Index.html">Home</a></li>
+				<li><a href="pages/About.html" target="mainIFrame">About</a></li>
+				<li class="Settings">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Contact<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+                    <li role="separator" class="divider"></li>
+					<li><a href="mailto:kennyfesler@gmail.com">Email</a></li>
+                    <li role="separator" class="divider"></li>
+					<li><a href="#">Phone</a></li>
+					<li role="separator" class="divider"></li>
+				  </ul>
+				</li>
+                  <li><a href="pages/Effects.html" target="mainIFrame">Effects</a></li>
+			  </ul>
+                
+			  <ul class="nav navbar-nav navbar-right">
+			    <li><a href="http://tinyurl.com/rrlont"></a></li>
+                  <!-- Extra Dropdown menu Right side
+				<li class="Settings">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Dropdown <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li role="separator" class="divider"></li>
+					<li class="dropdown-header">Drop down header</li>
+					<li><a href="#">Option A</a></li>
+					<li><a href="#">Option B</a></li>
+				  </ul>
+				</li>
+            -->
+			  </ul>
+
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+
+        <iframe class="container-fluid" id="mainFrame" name="mainIFrame" src="pages/Home.html"></iframe>
+        
+        <div class="page-footer">
+  <h6><small><small><small><small><small><small><small><small><small><small><small>Copyright Ken F 2016 All Rights Reserved</small></small></small></small></small></small></small></small></small></small></small></h6>
+</div>
+        
+<style>
+body{
+    background-color: #66bdff;
+}        
+</style>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+	</body>
+</html>
